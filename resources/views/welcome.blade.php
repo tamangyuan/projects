@@ -3,7 +3,7 @@
 <section class="bg-center m-6 rounded-3xl hover:shadow-2xl bg-no-repeat bg-[url('/image/photo 1.jpg')] bg-gray-700 bg-blend-multiply">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">PROFESSIONAL PHOTO & VIDEO GRAPHY</h1>
-        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">>Wedding Photoshoot,Post Photoshoot and etc.With 4k video.Affordtable price Book now!</p>
+        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Wedding Photoshoot,Post Photoshoot and etc.With 4k video.Affordtable price Book now!</p>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a href="/Dashboard" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                 Book now!
@@ -17,5 +17,40 @@
         </div>
     </div>
 </section>
+
+<!-- gallery -->
+<div class="grid gap-4 m-3">
+    <div>
+       <img class="h-auto max-w-full rounded-lg" src="/image/image 9 9.5 10.jpg" alt="image"loading="_lazy">
+   </div>
+
+   <div class="m-3 p-3 lg:text-base lg:font-medium">
+   <a href="/Wedding" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photo</a>
+   <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape</a>
+</div>
+
+<div class="grid grid-cols-5 gap-4">
+    <div>
+
+       <img class="h-auto max-w-full rounded-lg" src="/image/image 2.jpg" alt="image">
+   </div>
+
+   <div>
+       <img class="h-auto max-w-full rounded-lg" src="/image/image 4.jpg" alt="image"loading="_lazy">
+   </div>
+   <div>
+       <img class="h-auto max-w-full rounded-lg" src="/image/image 50.jpg" alt="image" loading="_lazy">
+   </div>
+   <div>
+       <img class="h-auto max-w-full rounded-lg" src="/image/image 54.jpg" alt="image"loading="_lazy">
+   </div>
+   <div>
+       <img class="h-auto max-w-full rounded-lg" src="/image/image 58.jpg" alt="image" loading="_lazy">
+   </div>
+</div>
+</div>
+
+<!-- gallery end -->
+
 
 </x-page-layout>
