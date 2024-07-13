@@ -19,36 +19,42 @@
 </section>
 
 <!-- gallery -->
+
+<div>
+    <div class="text-center m-3 p-3">
+        <h1 class="text-2xl font-bold p-3 m-3">Image Gallery</h1>
+        <p class="text-base text-gray-400 m-3">Some photos</p>
+    </div>
+</div>
 <div class="grid gap-4 m-3">
-    <div>
-       <img class="h-auto max-w-full rounded-lg" src="/image/image 9 9.5 10.jpg" alt="image"loading="_lazy">
-   </div>
+         <div>
+            <img class="h-auto max-w-full rounded-lg" src="/image/photo 2.jpg" alt="image"loading="_lazy">
+        </div>
 
-   <div class="m-3 p-3 lg:text-base lg:font-medium">
-   <a href="/Wedding" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photo</a>
-   <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape</a>
-   <a href="/PostPhoto" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">PostPhoto</a>
-</div>
+        <div class="m-3 p-3 lg:text-base lg:font-medium">
+        <a href="/WeddingPhoto" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photo</a>
+        <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape</a>
+    </div>
 
-<div class="grid grid-cols-5 gap-4">
-    <div>
+    <div class="grid grid-cols-5 gap-4">
+         <div>
 
-       <img class="h-auto max-w-full rounded-lg" src="/image/image 2.jpg" alt="image">
-   </div>
+            <img class="h-auto max-w-full rounded-lg" src="/image/photo 3.jpg" alt="image">
+        </div>
 
-   <div>
-       <img class="h-auto max-w-full rounded-lg" src="/image/image 4.jpg" alt="image"loading="_lazy">
-   </div>
-   <div>
-       <img class="h-auto max-w-full rounded-lg" src="/image/image 50.jpg" alt="image" loading="_lazy">
-   </div>
-   <div>
-       <img class="h-auto max-w-full rounded-lg" src="/image/image 54.jpg" alt="image"loading="_lazy">
-   </div>
-   <div>
-       <img class="h-auto max-w-full rounded-lg" src="/image/image 58.jpg" alt="image" loading="_lazy">
-   </div>
-</div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="/image/photo 4.jpg" alt="image"loading="_lazy">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="/image/photo 5.jpg" alt="image" loading="_lazy">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="/image/photo 6.jpg" alt="image"loading="_lazy">
+        </div>
+        <div>
+            <img class="h-auto max-w-full rounded-lg" src="/image/photo 7.jpg" alt="image" loading="_lazy">
+        </div>
+    </div>
 </div>
 
 <!-- gallery end -->
