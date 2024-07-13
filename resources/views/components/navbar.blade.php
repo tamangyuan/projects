@@ -2,7 +2,7 @@
 
 <nav class="bg-white border border-solid rounded-2xl hover:shadow-2xl m-3 border-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://www.facebook.com/profile.php?id=100063892897090" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="/image/proPhoto-removebg-preview.jpg" class="h-8" alt="Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Professional</span>
     </a>
