@@ -41,6 +41,7 @@ class CustomerController extends Controller
             'phone' =>$request->phone,
             'description' =>$request->description,
         ]);
+        return redirect()->back();
     }
 
     /**

@@ -32,8 +32,10 @@
         </div>
 
         <div class="m-3 p-3 lg:text-base lg:font-medium">
-        <a href="/WeddingPhoto" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photo</a>
-        <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape</a>
+        <a href="/Wedding" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photos</a>
+        <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape Photos</a>
+        <a href="/PostPhoto" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Post Photos</a>
+
     </div>
 
     <div class="grid grid-cols-5 gap-4">

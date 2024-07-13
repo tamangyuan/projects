@@ -1,15 +1,23 @@
 <x-page-layout>
 
-    <div>
+<div>
+    <div class="grid md:grid-cols-4 gap-2.5 py-10 bg-gray-200 m-6 p-3 rounded-3xl hover:shadow-2xl">
         @foreach ($weddingPts as $weddingPt)
-        <ul class="">
-            <li class="container m-3 p-3 border border-solid rounded-2xl hover:shadow-inner text-lg font-bold">
-                {{$weddingPt->title}}
-<img src="{{Storage::url($weddingPt->image)}}" alt="">
-                {{$weddingPt->name}}
-            </li>
-        </ul>
+
+            <span class="max-w-sm flex flex-col  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{Storage::url($weddingPt->image)}}" alt="" />
+                </a>
+               <span class="p-5">
+                    <a href="#">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{$weddingPt->title}}</h5>
+                    </a>
+                   <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{$weddingPt->name}}</p>
+                </span>
+            </span>
+
         @endforeach
     </div>
+</div>
 
 </x-page-layout>
