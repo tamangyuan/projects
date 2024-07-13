@@ -35,6 +35,9 @@
         <a href="/Wedding" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photos</a>
         <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape Photos</a>
         <a href="/PostPhoto" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Post Photos</a>
+        <a href="/Document" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Documets</a>
+        <a href="/event" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Event Photos</a>
+
 
     </div>
 
