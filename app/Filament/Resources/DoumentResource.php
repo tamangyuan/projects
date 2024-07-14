@@ -34,7 +34,8 @@ class DoumentResource extends Resource
                     ->required()
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('image')
-                    ->image(),
+                    ->image()
+                    ->multiple(),
             ]);
     }
 
