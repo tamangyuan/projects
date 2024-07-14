@@ -31,7 +31,8 @@ class PostPhotoResource extends Resource
                     ->required()
                     ->maxLength(255),
                 Forms\Components\FileUpload::make('image')
-                    ->image(),
+                    ->image()
+                    ->multiple(),
             ]);
     }
 

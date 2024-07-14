@@ -33,7 +33,8 @@ class LandscapeResource extends Resource
                 Forms\Components\RichEditor::make('description')
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('image')
-                    ->image(),
+                    ->image()
+                    ->multiple(),
             ]);
     }
 

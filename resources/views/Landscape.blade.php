@@ -6,7 +6,9 @@
         @foreach ($landscapes as $landscape)
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
+                @foreach ($landscape["image"] as $image)
                 <img class="rounded-2xl" src="{{Storage::url($landscape->image)}}" alt="image" />
+                @endforeach
             </a>
             <div class="p-5">
                 <a href="#">

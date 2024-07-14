@@ -6,7 +6,9 @@
 
             <span class="max-w-sm flex flex-col  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
                 <a href="#">
+                    @foreach ($weddingPt["image"] as $image)
                     <img class="rounded-2xl" src="{{Storage::url($weddingPt->image)}}" alt="image" />
+                    @endforeach
                 </a>
                <span class="p-5">
                     <a href="#">

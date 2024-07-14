@@ -7,6 +7,7 @@
     <title>PhotographyDharan</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="/fronted css/bgimg.css">
 </head>
 <body>
 

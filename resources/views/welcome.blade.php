@@ -1,6 +1,6 @@
 <x-page-layout>
 
-<section class="bg-center m-6 rounded-3xl hover:shadow-2xl bg-no-repeat bg-[url('/image/photo 1.jpg')] bg-gray-700 bg-blend-multiply">
+<section class="bg-center m-6 rounded-3xl hover:shadow-2xl bg-no-repeat bgimg bg-gray-700 bg-blend-multiply">
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">PROFESSIONAL PHOTO & VIDEO GRAPHY</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Wedding Photoshoot,Post Photoshoot and etc.With 4k video.Affordtable price Book now!</p>
