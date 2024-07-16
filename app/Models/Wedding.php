@@ -11,7 +11,7 @@ class Wedding extends Model
     use HasFactory;
 
     protected $casts = [
-        'images' => 'array',
+        'image' => 'array',
     ];
 
 

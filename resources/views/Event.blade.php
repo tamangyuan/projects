@@ -5,11 +5,13 @@
             @foreach ($Events as $Event)
 
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    @foreach ($Event["image"] as $image)
+                @foreach ($Event["image"] as $image)
+
+                <a href="{{Storage::url($image)}}" class="h-96 w-96">
                     <img class="rounded-2xl" src="{{Storage::url($image)}}" alt="image" />
-                    @endforeach
                 </a>
+                @endforeach
+
                 <div class="p-5">
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{$Event->title}}</h5>
