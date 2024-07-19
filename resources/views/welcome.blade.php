@@ -31,45 +31,38 @@
             <img class="h-auto max-w-full rounded-lg" src="/image/photo 2.jpg" alt="image"loading="_lazy">
         </div>
 
-        <!-- button -->
-
-        <div class="m-3 p-3 lg:text-base lg:font-medium grid xl:flex-col  lgi mdi smi xli sm:grid sm:grid-cols-2 gap-3">
-            <div>
-        <a href="/Wedding" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photos</a>
-            </div>
-            <div>
-                <a href="/Landscape" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape Photos</a>
-            </div>
-            <div>
-                <a href="/PostPhoto" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Post Photos</a>
-            </div>
-            <div>
-                <a href="/Document" class="py-2 px-3 m-4 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Documets</a>
-            </div>
-            <div>
-                <a href="/event" class="py-2 px-3 m-4 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Event Photos</a>
-            </div>
-    </div>
-
-    <!-- button end -->
-
     <div class="grid grid-cols-5 gap-4">
-         <div>
-
-            <img class="h-auto max-w-full rounded-lg" src="/image/photo 3.jpg" alt="image">
+         <div class="text-center">
+        <a href="/Wedding" class="py-2 px-3 text-xs font-thin m-3   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding</a>
+            <a href="/image/wedding.jpg" target="_blank" rel="noopener noreferrer">
+                <img class="h-auto max-w-full rounded-lg m-3" src="/image/wedding.jpg" alt="image">
+            </a>
         </div>
 
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/image/photo 4.jpg" alt="image"loading="_lazy">
+        <div class="text-center">
+            <a href="/Landscape" class="py-2 px-3 text-xs m-3 font-thin   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Landscape</a>
+            <a href="/image/landscape1.jpg" target="_blank" rel="noopener noreferrer">
+                <img class="h-auto max-w-full m-3 rounded-lg" src="/image/landscape1.jpg" alt="image"loading="_lazy">
+            </a>
         </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/image/photo 5.jpg" alt="image" loading="_lazy">
+
+        <div class="text-center">
+            <a href="/PostPhoto" class="py-1 px-2 text-xs font-thin   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Others</a>
+            <a href="/image/photo 5.jpg" target="_blank" rel="noopener noreferrer">
+                <img class="h-auto max-w-full rounded-lg m-3" src="/image/photo 5.jpg" alt="image" loading="_lazy">
+            </a>
         </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/image/photo 6.jpg" alt="image"loading="_lazy">
+        <div class="text-center">
+            <a href="/Document" class="py-2 px-3 m-4 text-xs font-thin   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Documetary</a>
+            <a href="/image/documentary.jpg" target="_blank" rel="noopener noreferrer">
+                <img class="h-auto max-w-full rounded-lg m-3" src="/image/documentary.jpg" alt="image"loading="_lazy">
+            </a>
         </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="/image/photo 7.jpg" alt="image" loading="_lazy">
+        <div class="text-center">
+            <a href="/event" class="py-2 px-3 m-4 text-xs font-thin   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Event</a>
+            <a href="/image/event.jpg" target="_blank" rel="noopener noreferrer">
+                <img class="h-auto max-w-full rounded-lg m-3" src="/image/event.jpg" alt="image" loading="_lazy">
+            </a>
         </div>
     </div>
 </div>
