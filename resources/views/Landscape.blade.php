@@ -2,7 +2,7 @@
 
 <div>
 
-    <div class="grid grid-cols-4 gap-2.5 py-10 bg-rose-50 rounded-2xl hover:shadow-orange-500 m-2">
+    <div class=" xl:grid xl:grid-cols-1 xl:gap-2.5 md:grid md:grid-cols-2 py-10 bg-rose-50 rounded-2xl hover:shadow-orange-500 m-2">
         @foreach ($landscapes as $landscape)
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">

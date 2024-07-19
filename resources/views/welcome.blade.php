@@ -32,8 +32,8 @@
         </div>
 
         <!-- button -->
-        
-        <div class="m-3 p-3 lg:text-base lg:font-medium grid gap-4 lg:flex xl:flex">
+
+        <div class="m-3 p-3 lg:text-base lg:font-medium grid xl:flex-col  lgi mdi smi xli sm:grid sm:grid-cols-2 gap-3">
             <div>
         <a href="/Wedding" class="py-2 px-3 text-xs font-thin text-right   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Wedding Photos</a>
             </div>

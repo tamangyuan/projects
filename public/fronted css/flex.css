@@ -1,0 +1,14 @@
+.lgi {
+    @media screen { min-width: 1080px;
+    flex: 96px;}
+}
+.mdi{
+    @media screen { min-width: 768px;
+    grid: auto;}
+}
+.smi{ @media screen { min-width: 640px;
+    grid-column: auto;}
+}
+.xli{ @media screen { min-width: 1280px;
+    flex: 96px;}
+}
