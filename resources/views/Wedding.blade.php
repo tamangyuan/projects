@@ -1,11 +1,10 @@
 <x-page-layout>
+    <div>
 
-<div>
-    <div class="grid md:grid-cols-4 gap-2.5 py-10 bg-gray-200 m-6 p-3 rounded-3xl hover:shadow-2xl">
-        @foreach ($weddingPts as $weddingPt)
+        <div class="grid md:grid-cols-4 py-10 gap-2.5  bg-slate-200 rounded-xl hover:shadow-2xl">
+            @foreach ($weddingPts as $weddingPt)
 
-            <span class="max-w-sm flex flex-col  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
-
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 @foreach ($weddingPt["image"] as $image)
 
                 <a href="{{Storage::url($image)}}" class="h-96 w-96">
@@ -13,16 +12,16 @@
                 </a>
                 @endforeach
 
-               <span class="p-5">
+                <div class="p-5">
                     <a href="#">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{$weddingPt->title}}</h5>
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{$weddingPt->title}}</h5>
                     </a>
-                   <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{{$weddingPt->name}}</p>
-                </span>
-            </span>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{!! $weddingPt->description !!}</p>
+                </div>
+            </div>
 
-        @endforeach
+            @endforeach
+        </div>
+
     </div>
-</div>
-
 </x-page-layout>

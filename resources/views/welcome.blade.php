@@ -18,6 +18,12 @@
     </div>
 </section>
 
+<section>
+    <video width="600" class="xl:w-9/12 md:w-2/3 lg:w-4/5" controls autoplay>
+        <source src="video/video1.mp4" type="video/mp4">
+      </video>
+</section>
+
 <!-- gallery -->
 
 <div>
@@ -50,12 +56,6 @@
             <a href="/PostPhoto" class="py-1 px-2 text-xs font-thin   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Others</a>
             <a href="/image/photo 5.jpg" target="_blank" rel="noopener noreferrer">
                 <img class="h-auto max-w-full rounded-lg m-3" src="/image/photo 5.jpg" alt="image" loading="_lazy">
-            </a>
-        </div>
-        <div class="text-center">
-            <a href="/Document" class="py-2 px-3 m-4 text-xs font-thin   text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">Documetary</a>
-            <a href="/image/documentary.jpg" target="_blank" rel="noopener noreferrer">
-                <img class="h-auto max-w-full rounded-lg m-3" src="/image/documentary.jpg" alt="image"loading="_lazy">
             </a>
         </div>
         <div class="text-center">
